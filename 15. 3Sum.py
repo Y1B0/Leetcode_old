@@ -17,13 +17,11 @@ class Solution(object):
                     r -= 1
                 else:
                     comb = [nums[i],nums[l],nums[r]]
-                    print comb
                     if not comb in res:
                         res.append(comb)
                         
                     l += 1
                     r -= 1
-                    
         return res
 
 s = Solution()
